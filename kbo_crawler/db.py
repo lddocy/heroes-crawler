@@ -148,7 +148,7 @@ def save_schedule_and_scores(games: list[dict]) -> int:
 # KBO 공식 사이트 컬럼명 → DB 컬럼명
 _RANKING_COL_MAP = {
     "순위":  "rank_no",
-    "팀":    "team_name",
+    "팀명":  "team_name",
     "경기":  "games_played",
     "승":    "wins",
     "패":    "losses",
