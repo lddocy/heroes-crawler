@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+data/
+
+# 환경변수 (절대 커밋 금지)
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# 서브프로젝트 git (별도 repo로 관리)
+heroes-be/
+heroes-fe/
